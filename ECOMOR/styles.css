@@ -1,0 +1,226 @@
+#body {
+  background-image: url("img/fondo.jpg");
+}
+
+#nav {
+  background-color: #c09f80;
+}
+
+#texto2 {
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#div {
+  background-color: #c09f80;
+  width: 300;
+  height: 600px;
+}
+
+#div1 {
+  background-color: white;
+  margin: 20px;
+  margin-top: auto;
+}
+
+#div2 {
+  background-color: #c09f80;
+  width: 300;
+  height: 570px;
+  margin-bottom: 20px;
+}
+
+#boton {
+  background-color: #816e5c;
+  border-width: 2px;
+  color: white;
+  font-size: medium;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-color: #c09f80;
+}
+
+#boton:hover {
+  background-color: #c09f80;
+  border-width: 2px;
+  border-color: #816e5c;
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #816e5c;
+}
+
+#text {
+  text-align: center;
+}
+
+#div3 {
+  background-color: #c09f80;
+}
+
+#h4 {
+  text-align: center;
+  margin-top: 18px;
+  font-family: cursive;
+  color: #816e5c;
+}
+
+#kit {
+  color: #816e5c;
+  text-align: center;
+  font-family: cursive;
+  margin-top: 5px;
+}
+
+#card5 {
+  background-color: white;
+  text-align: left;
+  margin-bottom: 23px;
+  border-color: white;
+  border-width: 3px;
+}
+
+#footer {
+  background-color: #5c4938;
+}
+
+#footer1 {
+  text-align: center;
+}
+
+#footer2 {
+  text-align: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+#div4 {
+  background-color: #816e5c;
+}
+
+#div5 {
+  margin-bottom: 5px;
+}
+
+#div6 {
+  background-color: white;
+}
+
+#card1 {
+  background-color: #aa825c;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-color: #aa825c;
+  border-width: 10px;
+}
+
+#card2 {
+  background-color: #aa825c;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-color: #aa825c;
+  border-width: 10px;
+}
+
+#card3 {
+  background-color: #aa825c;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-color: #aa825c;
+  border-width: 10px;
+}
+
+#textcard {
+  color: white;
+  font-family: cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+#textcard2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#divhead {
+  background-color: rgb(218, 164, 103);
+  color: white;
+  font-weight: bold;
+}
+
+#divbody {
+  background-color: rgb(255, 243, 230);
+  color: black;
+}
+
+#productoshead {
+  text-align: center;
+  font-family: cursive;
+}
+
+#div7 {
+  background-color: #ebd8c6;
+  margin-bottom: 20px;
+}
+
+#textcontact {
+  color: rgb(117, 69, 42);
+  font-weight: bold;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#botoncontact {
+  background-color: #816e5c;
+  border-width: 2px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: medium;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-color: #c09f80;
+}
+
+#botoncontact:hover {
+  background-color: #c09f80;
+  border-width: 2px;
+  border-color: #816e5c;
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #816e5c;
+}
